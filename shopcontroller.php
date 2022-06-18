@@ -29,7 +29,7 @@ class ShopController {
       
     } else if (isset($param["artNo"])) {
       $this->model->addToCart($param["artNo"]);
-      header("Location: http://localhost:8080/toymodels/webaw_exercises/toymodels/");
+      header("Location: http://localhost:8080/toymodels/Webprog-/");
     }
   }
 

@@ -1,7 +1,7 @@
 <?php
 
 function setupDB() {
-  $pdo = new PDO("sqlite:C:\\xampp\\htdocs\\toymodels\\webaw_exercises\\toymodels\\toymodels.db");
+  $pdo = new PDO("sqlite:C:\\xampp\\htdocs\\toymodels\\Webprog-\\toymodels.db");
   
   $sql = "CREATE TABLE users (id INTEGER PRIMARY KEY, username VARCHAR(255), password VARCHAR(255), salt VARCHAR(255));";
 

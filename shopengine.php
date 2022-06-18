@@ -12,7 +12,7 @@ class ShopEngine {
   public function __construct() {
 
     try {
-      $this->pdo = new PDO("sqlite:C:\\xampp\\htdocs\\toymodels\\webaw_exercises\\toymodels\\toymodels.db");
+      $this->pdo = new PDO("sqlite:C:\\xampp\\htdocs\\toymodels\\Webprog-\\toymodels.db");
       /* For MySQL uncomment this */
       /*
       $this->pdo = new PDO("mysql:host=localhost;port=3306;", DB_USER, DB_PASS);

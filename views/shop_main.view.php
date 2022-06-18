@@ -3,14 +3,14 @@
   <head>
     <meta charset='utf-8'>
     <title>Toymodels Online-Shop</title>
-    <link rel='stylesheet' href='http://localhost:8080/toymodels/webaw_exercises/toymodels/css/toymodels.css' type='text/css'>
+    <link rel='stylesheet' href='http://localhost:8080/toymodels/Webprog-/css/toymodels.css' type='text/css'>
     <script> 
       function navigateToCart(toCart) {
         // window.open("http://localhost/toymodels/cart.php", "_self");
         if (toCart)
-          document.location.assign("http://localhost:8080/toymodels/webaw_exercises/toymodels/index.php/cart");
+          document.location.assign("http://localhost:8080/toymodels/Webprog-/index.php/cart");
         else
-          document.location.assign("http://localhost:8080/toymodels/webaw_exercises/toymodels/");
+          document.location.assign("http://localhost:8080/toymodels/Webprog-/");
       }
   
       function createRegistrationForm() {
@@ -49,7 +49,7 @@
           f.appendChild(input);
 
           f.id = "toymodels-form";
-          f.setAttribute("action", "http://localhost:8080/toymodels/webaw_exercises/toymodels/index.php/register");
+          f.setAttribute("action", "http://localhost:8080/toymodels/Webprog-/index.php/register");
           main.replaceChildren(f);
       }
     </script>
@@ -57,19 +57,19 @@
   <body>
    <header> <!-- Header mit Logo, Titel, Searchbar & Login  -->
     <section id="logosection">
-     <img src="http://localhost:8080/toymodels/webaw_exercises/toymodels/img/toymodels.png">
+     <img src="http://localhost:8080/toymodels/Webprog-/img/toymodels.png">
      <h1>Toy-Models<br>Online-Shop</h1>
     </section>  
     <section id="searchbarsection">
-      <form action="http://localhost:8080/toymodels/webaw_exercises/toymodels/index.php">
+      <form action="http://localhost:8080/toymodels/Webprog-/index.php">
         <input id="searchbar" name="searchbar">
-        <button type="submit" id="searchbutton"><img src="http://localhost:8080/toymodels/webaw_exercises/toymodels/img/search.png"></button>
+        <button type="submit" id="searchbutton"><img src="http://localhost:8080/toymodels/Webprog-/img/search.png"></button>
       </form>
     </section>
     <section id="usersection">
       <?php echo $this->cartButton(); ?>
       <div id="userlogin">
-        <button class="cartbutton"><img src="http://localhost:8080/toymodels/webaw_exercises/toymodels/img/ghost.png">Login</button>
+        <button class="cartbutton"><img src="http://localhost:8080/toymodels/Webprog-/img/ghost.png">Login</button>
         <div class="loginbox">
           <form action="login.php" method="POST">
             <label for="username">Benutzername</label>

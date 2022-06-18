@@ -9,13 +9,13 @@ class ShopView {
     if ($this->content["page"] === "main") {
     $addText = $this->content["data"]["nCartItems"] > 0 ? "(".$this->content["data"]["nCartItems"].")":"";
     $result = "<button class='cartbutton' onclick='navigateToCart(true);'>
-        <img src='http://localhost:8080/toymodels/webaw_exercises/toymodels/img/gift.png'>
+        <img src='http://localhost:8080/toymodels/Webprog-/img/gift.png'>
         Warenkorb 
         $addText
       </button>";
     } else {
       $result = "<button class='cartbutton' onclick='navigateToCart(false);'>
-        <img src='http://localhost:8080/toymodels/webaw_exercises/toymodels/img/gift.png'>
+        <img src='http://localhost:8080/toymodels/Webprog-/img/gift.png'>
         Zur&uuml;ck
       </button>";
     }
